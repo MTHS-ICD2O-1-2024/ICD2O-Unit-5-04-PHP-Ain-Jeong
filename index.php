@@ -42,7 +42,7 @@
           <div class="page-content-guide">Please select what day it is today</div>
           <div class="mdl-textfield mdl-js-textfield">
             <select class="mdl-textfield__input" name="day">
-              <option value="monday">Monday</option>
+              <option value="Monday">Monday</option>
               <option value="tuesday">Tuesday</option>
               <option value="wednesday">Wednesday</option>
               <option value="thursday">Thursday</option>

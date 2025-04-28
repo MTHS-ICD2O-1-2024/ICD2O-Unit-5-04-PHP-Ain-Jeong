@@ -36,10 +36,10 @@
           $userAge = $_GET["user-age"];
           $day = $_GET["day"];
           // process
-          if (($age >= 12 && $age <= 21) || $day == 'tuesday' || $day == 'thursday') {
-            echo 'You are eligible for the student pricing!';
+          if (($userAge >= 12 && $userAge <= 21) || $day == 'tuesday' || $day == 'thursday') {
+            echo 'If you are ' . $userAge . ' years old and it is ' . $day . ' today, You are eligible for the student pricing!';
           } else {
-            echo 'You must pay regular price.';
+            echo 'If you are ' . $userAge . ' years old and it is ' . $day . ' today, You must pay regular price.';
           }
           ?>
         </div>
